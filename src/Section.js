@@ -3,7 +3,7 @@ import Carroussel from "./Carrousel";
 
 function Section({ elements }) {
   return (
-    <div>
+    <div className="section">
       <Title titre={elements.category} />
       <Carroussel pictures={elements.images} />
     </div>
