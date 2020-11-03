@@ -1,7 +1,7 @@
-function Title(props) {
+function Title({ titre }) {
   return (
     <div>
-      <h1> {props.titre}</h1>
+      <h1> {titre}</h1>
     </div>
   );
 }
