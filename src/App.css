@@ -33,9 +33,14 @@ h1 {
 
 .scrolling {
   display: flex;
-  width: 1000px;
+  width: 1269px;
+  height: 123.86px;
 }
 
 .inner-border::-webkit-scrollbar {
   display: none;
+}
+.picture {
+  width: 220px;
+  height: 123.86px;
 }
